@@ -1,0 +1,13 @@
+.modal-body{
+    position: relative;
+    z-index: 1;
+}
+
+.imageONe{
+    position: absolute;
+    top: 8%;
+    display: flex;
+    width: 350px;
+    left: 6%;
+    gap: 20px;
+}

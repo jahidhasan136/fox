@@ -1,6 +1,13 @@
 .modal-body{
+}
+
+.modal-content{
+    background-image: url('/assets/img/modal/bg_modal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     z-index: 1;
+    height: 60vh;
 }
 
 .imageONe{

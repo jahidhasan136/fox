@@ -110,3 +110,63 @@
     background: #2EB6B8;
     color: #ffffff; 
 }
+
+@media (max-width: 1330px){
+    .login_section {
+        /* margin: 0 auto; */
+        display: grid;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 500px){
+    .bg_login{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .login_content h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .login_content h6 {
+        font-size: 14px;
+    }
+    
+    .login_content p {
+        font-size: 16px;
+    }
+    .social_login {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .social_media img {
+        border-radius: 10px;
+        background: #F2F6FC;
+        padding: 10px;
+        width: 30%;
+    }
+    
+    .google {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        border-radius: 10px;
+        background: #F2F6FC;
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+    .google img{
+        width: 10%;
+    }
+    
+    .social_media {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
